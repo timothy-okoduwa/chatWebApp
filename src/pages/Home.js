@@ -123,7 +123,11 @@ const Home = () => {
         {chat ? (
           <>
             <div className="messages_user">
-              <h3>{chat.name}</h3>
+              <div className="hmm">
+                    <h3 >{chat.name}</h3>
+              <div className={`user_status2 ${chat.isOnline ? "online2" : "offline2"}`}></div>
+              </div>
+          
             </div>
             <div className="messages">
               {msgs.length

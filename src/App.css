@@ -160,11 +160,25 @@ section .form {
   height: 10px;
   border-radius: 50%;
 }
+.user_status2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding-left: 5px;
+}
 .online {
   background: #34eb52;
 }
 .offline {
   background: var(--color-5);
+}
+.online2 {
+  background: #34eb52;
+  margin-left: 5px;
+}
+.offline2 {
+  background: var(--color-5);
+  margin-left: 5px;
 }
 .messages_container {
   position: relative;
@@ -298,4 +312,11 @@ section .form {
   .message_wrapper p {
     max-width: 100%;
   }
+}
+
+.hmm{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
